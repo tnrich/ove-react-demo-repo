@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Editor, updateEditor } from "open-vector-editor";
+import store from "./store";
+
+import "./App.css";
 
 function App() {
+  React.useEffect(() => {
+    updateEditor(store, "DemoEditor", {
+      sequenceData: {
+        circular: true,
+        sequence:
+          "gtagagagagagtgagcccgacccccgtagagagagagtgagcccgacccccgtagagagagagtgagcccgacccccgtagagagagagtgagcccgaccccc",
+        features: [
+          {
+            id: "2oi452",
+            name: "I'm a feature :)",
+            start: 10,
+            end: 20
+          }
+        ]
+      }
+    });
+  });
+  const editorProps = {
+    editorName: "DemoEditor",
+    isFullscreen: true,
+    showMenuBar: true
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Editor {...editorProps} />
     </div>
   );
 }
