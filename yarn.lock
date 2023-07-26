@@ -536,40 +536,48 @@
   dependencies:
     "@nx-js/observer-util" "^4.2.2"
 
-"@teselagen/bio-parsers@^0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@teselagen/bio-parsers/-/bio-parsers-0.1.22.tgz#89917fe174e8051b2f3f9c214374c5c89f10f8e3"
-  integrity sha512-RbeMtQX2d0YxheZDgmTeTUL1bj1Kpi7RSg+4Dz8tnAPzNPPUOD9y407vEKvk/islmc7GzPvkcz3c/OpKZOHzcQ==
+"@teselagen/bio-parsers@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@teselagen/bio-parsers/-/bio-parsers-0.1.25.tgz#d7c0ff79c1fcf4710d9b31aee448012d33d4fd3d"
+  integrity sha512-7+SbSYypY+KGTZVxRsiDWX8QfCWZZPdRjfwWTOldhUYDx2SAqr7XujwKBiald4QSu8ilRaPsqdV/G5NNF0TQLQ==
   dependencies:
     "@gmod/gff" "^1.2.1"
+    "@teselagen/range-utils" "0.1.19"
+    "@teselagen/sequence-utils" "0.1.20"
+    bson-objectid "2.0.4"
     buffer "^6.0.3"
     bufferpack "^0.0.6"
     color "^4.2.3"
+    escape-string-regexp "1.0.5"
     fast-xml-parser "^4.2.5"
     fflate "^0.8.0"
+    jsondiffpatch-rc "0.4.2"
     lodash "^4.17.21"
+    shortid "^2.2.16"
     string_decoder "^1.3.0"
     validate.io-nonnegative-integer-array "^1.0.1"
 
-"@teselagen/bounce-loader@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.0.11.tgz#7075929ae229c6369aefc287d6c71363fd0597c3"
-  integrity sha512-GD2KLBLIgxM7zEITbsZ+kShyRfcR5RTlVJykpUGtwr4cjCeKHVfjEoUfiF8W33FWCd1Q45oQkRrGSunq9fon8g==
+"@teselagen/bounce-loader@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.0.13.tgz#4916833b92f942079879faded6cfa7660f5bd162"
+  integrity sha512-Yyo8e3QSbPY3nCumyjFIn9oWo/7+0EMe8ouloy7Pgq0lUTQjiW9twos3o+UkzK2Kv+eRu++yLuKD0bcItsns2Q==
+  dependencies:
+    react "18.2.0"
 
-"@teselagen/file-utils@^0.2.22":
-  version "0.2.22"
-  resolved "https://registry.yarnpkg.com/@teselagen/file-utils/-/file-utils-0.2.22.tgz#aeb55ae7985a96cd0d5e594e8b44d6d750dca52c"
-  integrity sha512-/qR9kibA2JAKAyLsYVtlt1+snUP8FsSprMRGhgDhH9UiFUuVHQjT/bB/XzhfIkhIbO+MlwdehkZpumYERjYn1g==
+"@teselagen/file-utils@0.2.26":
+  version "0.2.26"
+  resolved "https://registry.yarnpkg.com/@teselagen/file-utils/-/file-utils-0.2.26.tgz#e1e17006162914f4df0602d7277c871e2caf5382"
+  integrity sha512-EkdysKJeUv3/77zCTfVnwl12hxB4xKHVVPPnFXpXqazr5mp0f1kVL9JM9ygG2xjwUZiNecrsaoFFYwCKMR0e+g==
   dependencies:
     bluebird "^3.7.2"
     jszip "^3.10.1"
     lodash "^4.17.21"
     papaparse "^5.4.1"
 
-"@teselagen/ove@^0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@teselagen/ove/-/ove-0.0.16.tgz#e643759481d21bd1d7d23e48ecdffb83d392f5be"
-  integrity sha512-IuJGBON9ek2z8CZx5QOF+iH1DEciStXbDMqM+XO4417WPPKlZifUlHz/GgXRraKLYF/p7ZRTAzWScjuY7uSV1g==
+"@teselagen/ove@0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@teselagen/ove/-/ove-0.0.19.tgz#b6988cd373f46913f0c9f9995c14cadf307c151d"
+  integrity sha512-qzfIfN0DF8i1Uq8u52eiUfYGtomxSjAhP24D30qPGLxU/JfzNnjEI0z2EQRRSn0lPkNp4uKsZLXOKUQMU5QVqA==
   dependencies:
     "@blueprintjs/core" "3.52.0"
     "@blueprintjs/datetime" "3.23.19"
@@ -578,8 +586,14 @@
     "@fontsource/ubuntu-mono" "^4.5.11"
     "@hello-pangea/dnd" "16.2.0"
     "@risingstack/react-easy-state" "^6.3.0"
+    "@teselagen/bio-parsers" "0.1.25"
+    "@teselagen/bounce-loader" "0.0.13"
+    "@teselagen/file-utils" "0.2.26"
+    "@teselagen/range-utils" "0.1.19"
     "@teselagen/react-list" "0.8.18"
     "@teselagen/react-table" "^6.10.11"
+    "@teselagen/sequence-utils" "0.1.20"
+    "@teselagen/ui" "0.0.24"
     "@use-gesture/react" "^10.2.23"
     axios "^0.21.1"
     bluebird "3.7.2"
@@ -609,6 +623,7 @@
     math-expression-evaluator "^1.3.7"
     mobx "^6.9.0"
     mobx-react "^7.6.0"
+    mock-fs "5.2.0"
     nanoid "^4.0.0"
     node-interval-tree "^1.3.3"
     papaparse "^5.3.2"
@@ -646,10 +661,10 @@
     use-deep-compare-effect "^1.6.1"
     write-excel-file "^1.4.25"
 
-"@teselagen/range-utils@^0.1.17":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@teselagen/range-utils/-/range-utils-0.1.17.tgz#da1283048acf6ab67232f3326365aa34d7516765"
-  integrity sha512-3nRHQohOxpckkvlbp5grJbnVjNtXYe1GM0L8iBvWbABwlDzrKvK7JdKrjxWdDSDjjLeNeLU8GoxDN0Jt2TW8pA==
+"@teselagen/range-utils@0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@teselagen/range-utils/-/range-utils-0.1.19.tgz#632a0e2a0462bc204b5e276e7c1743d6a4d2577d"
+  integrity sha512-Rie979+N/GTR41LJ7QDadlPxmO9loe9OUNnjztwg2UtkMjufmZbJit09RDKtjeA65HFcz3Ggp1sXW98FHwfeWw==
   dependencies:
     lodash "^4.17.21"
 
@@ -668,25 +683,28 @@
     "@teselagen/react-list" "0.8.18"
     classnames "^2.2.5"
 
-"@teselagen/sequence-utils@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@teselagen/sequence-utils/-/sequence-utils-0.1.18.tgz#5c23f2533ef8b2092126a3c7777ceef4fbac5d72"
-  integrity sha512-UMtGwKpbTzKPzHQIGUXRYLF1R98GH5fywNiV1pvnHGSR3SBd91jSX8+Te/f3X00rVJMg9JqrU+tUXn05r4vyMA==
+"@teselagen/sequence-utils@0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@teselagen/sequence-utils/-/sequence-utils-0.1.20.tgz#bf5a385889b2d7366cf65d28d8293cc7ded5dc26"
+  integrity sha512-V6stnrQbz+PGQbKZoJRaY9T+TieS6buV9LhnKqtEkXxRHdM70izkrBAirgfyfq4oQ4Hu2/KKvJjVwl9yfwveMg==
   dependencies:
+    "@teselagen/range-utils" "0.1.19"
     bson-objectid "^2.0.4"
     escape-string-regexp "^5.0.0"
     jsondiffpatch-rc "0.4.2"
     string-splice "^1.3.0"
 
-"@teselagen/ui@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@teselagen/ui/-/ui-0.0.20.tgz#72635ca70035a63d4832ffd2677d264eaf7d9404"
-  integrity sha512-3cFCXMgbhdN6OQtbqU2N9GFod3JLM9ThOMX4T/gRBCIVuJUDdt7qR4l9Xwj1auTPpCLXs1gCYrV4pzNf8GUcug==
+"@teselagen/ui@0.0.24":
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/@teselagen/ui/-/ui-0.0.24.tgz#75cdd3e3c5ef11ddfea2ac5d6975310320457fdf"
+  integrity sha512-Ox9tAlLKZcZ3qmLuEx2mg/mBvtWqtct7jvt8waXOJV6zO0tIeo63FWK9Es68KadrYLFrDpbR4F5texMWEUed8A==
   dependencies:
     "@blueprintjs/core" "3.52.0"
     "@blueprintjs/datetime" "3.23.19"
     "@blueprintjs/icons" "3.33.0"
     "@blueprintjs/select" "3.18.11"
+    "@teselagen/bounce-loader" "0.0.13"
+    "@teselagen/file-utils" "0.2.26"
     "@teselagen/react-table" "^6.10.11"
     axios "^0.21.1"
     bluebird "3.7.2"
@@ -703,6 +721,7 @@
     math-expression-evaluator "^1.3.7"
     mobx "^6.9.0"
     mobx-react "^7.6.0"
+    mock-fs "5.2.0"
     nanoid "^4.0.0"
     papaparse "^5.3.2"
     prop-types "^15.6.2"
@@ -2605,6 +2624,11 @@ mobx@^6.9.0:
   version "6.10.0"
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.10.0.tgz#3537680fe98d45232cc19cc8f76280bd8bb6b0b7"
   integrity sha512-WMbVpCMFtolbB8swQ5E2YRrU+Yu8iLozCVx3CdGjbBKlP7dFiCSuiG06uea3JCFN5DnvtAX7+G5Bp82e2xu0ww==
+
+mock-fs@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/mock-fs/-/mock-fs-5.2.0.tgz#3502a9499c84c0a1218ee4bf92ae5bf2ea9b2b5e"
+  integrity sha512-2dF2R6YMSZbpip1V1WHKGLNjr/k48uQClqMVb5H3MOvwc9qhYis3/IWbj02qIg/Y8MDXKFF4c5v0rxx2o6xTZw==
 
 mri@^1.1.0:
   version "1.2.0"

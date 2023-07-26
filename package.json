@@ -3,13 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@teselagen/bio-parsers": "^0.1.22",
-    "@teselagen/bounce-loader": "^0.0.11",
-    "@teselagen/file-utils": "^0.2.22",
-    "@teselagen/ove": "^0.0.16",
-    "@teselagen/range-utils": "^0.1.17",
-    "@teselagen/sequence-utils": "^0.1.18",
-    "@teselagen/ui": "^0.0.20",
+    "@teselagen/ove": "0.0.19",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -21,7 +15,7 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite --force",
     "build": "vite build"
   },
   "browserslist": {
