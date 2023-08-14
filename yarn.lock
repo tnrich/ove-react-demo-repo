@@ -536,48 +536,44 @@
   dependencies:
     "@nx-js/observer-util" "^4.2.2"
 
-"@teselagen/bio-parsers@0.1.25":
-  version "0.1.25"
-  resolved "https://registry.yarnpkg.com/@teselagen/bio-parsers/-/bio-parsers-0.1.25.tgz#d7c0ff79c1fcf4710d9b31aee448012d33d4fd3d"
-  integrity sha512-7+SbSYypY+KGTZVxRsiDWX8QfCWZZPdRjfwWTOldhUYDx2SAqr7XujwKBiald4QSu8ilRaPsqdV/G5NNF0TQLQ==
+"@teselagen/bio-parsers@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/bio-parsers/-/bio-parsers-0.3.7.tgz#f75b775dfbd844a1672bfe9b74c59f066d8fce5d"
+  integrity sha512-CLdRie80O6CI2wnUJM2gdt9lPcryG/prBV0ynNcjPVQ6Ayo34Qs3bIX/11asRXtQMpcXs2nTYJ8u/7G68fYNaQ==
   dependencies:
     "@gmod/gff" "^1.2.1"
-    "@teselagen/range-utils" "0.1.19"
-    "@teselagen/sequence-utils" "0.1.20"
-    bson-objectid "2.0.4"
+    "@teselagen/range-utils" "0.3.7"
+    "@teselagen/sequence-utils" "0.3.7"
     buffer "^6.0.3"
     bufferpack "^0.0.6"
     color "^4.2.3"
-    escape-string-regexp "1.0.5"
     fast-xml-parser "^4.2.5"
     fflate "^0.8.0"
-    jsondiffpatch-rc "0.4.2"
     lodash "^4.17.21"
-    shortid "^2.2.16"
     string_decoder "^1.3.0"
     validate.io-nonnegative-integer-array "^1.0.1"
 
-"@teselagen/bounce-loader@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.0.13.tgz#4916833b92f942079879faded6cfa7660f5bd162"
-  integrity sha512-Yyo8e3QSbPY3nCumyjFIn9oWo/7+0EMe8ouloy7Pgq0lUTQjiW9twos3o+UkzK2Kv+eRu++yLuKD0bcItsns2Q==
+"@teselagen/bounce-loader@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.3.7.tgz#cc2ffcb7723f63554a7edfca859ec703e2bb7685"
+  integrity sha512-wXjJKouM+/Ig28Ss/mGzLlrFkIZTNR5sFniszraqduxNWjqwT7JR22vOnIkNUyRaPNBzDRN/AkeZx+RzX6MlWQ==
   dependencies:
     react "18.2.0"
 
-"@teselagen/file-utils@0.2.26":
-  version "0.2.26"
-  resolved "https://registry.yarnpkg.com/@teselagen/file-utils/-/file-utils-0.2.26.tgz#e1e17006162914f4df0602d7277c871e2caf5382"
-  integrity sha512-EkdysKJeUv3/77zCTfVnwl12hxB4xKHVVPPnFXpXqazr5mp0f1kVL9JM9ygG2xjwUZiNecrsaoFFYwCKMR0e+g==
+"@teselagen/file-utils@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/file-utils/-/file-utils-0.3.7.tgz#b4660599245ac651b89ad5c47df07a038a284a76"
+  integrity sha512-4gOXJAaCgl/1pwbb4wzogFbbWiBDEg3hbgcTl8osjhgLLuW+1eqjOzuTvLOwefzmDcwkQvVZfgFSn9XkeXcGQg==
   dependencies:
     bluebird "^3.7.2"
     jszip "^3.10.1"
     lodash "^4.17.21"
     papaparse "^5.4.1"
 
-"@teselagen/ove@0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@teselagen/ove/-/ove-0.0.19.tgz#b6988cd373f46913f0c9f9995c14cadf307c151d"
-  integrity sha512-qzfIfN0DF8i1Uq8u52eiUfYGtomxSjAhP24D30qPGLxU/JfzNnjEI0z2EQRRSn0lPkNp4uKsZLXOKUQMU5QVqA==
+"@teselagen/ove@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/ove/-/ove-0.3.7.tgz#f5d9aa0afaa4d595fecc6ea72bd4a886fd7c7264"
+  integrity sha512-nliiV0HqODbey2ltK/bEsLNuufrRVKxoisHLX2zFpeWj1o7lc3IgeLznOFc+h82YpPoiWVaePdzeHeaMCHpDtA==
   dependencies:
     "@blueprintjs/core" "3.52.0"
     "@blueprintjs/datetime" "3.23.19"
@@ -586,14 +582,14 @@
     "@fontsource/ubuntu-mono" "^4.5.11"
     "@hello-pangea/dnd" "16.2.0"
     "@risingstack/react-easy-state" "^6.3.0"
-    "@teselagen/bio-parsers" "0.1.25"
-    "@teselagen/bounce-loader" "0.0.13"
-    "@teselagen/file-utils" "0.2.26"
-    "@teselagen/range-utils" "0.1.19"
+    "@teselagen/bio-parsers" "0.3.7"
+    "@teselagen/bounce-loader" "0.3.7"
+    "@teselagen/file-utils" "0.3.7"
+    "@teselagen/range-utils" "0.3.7"
     "@teselagen/react-list" "0.8.18"
     "@teselagen/react-table" "^6.10.11"
-    "@teselagen/sequence-utils" "0.1.20"
-    "@teselagen/ui" "0.0.24"
+    "@teselagen/sequence-utils" "0.3.7"
+    "@teselagen/ui" "0.3.7"
     "@use-gesture/react" "^10.2.23"
     axios "^0.21.1"
     bluebird "3.7.2"
@@ -618,7 +614,7 @@
     html2canvas "^1.4.1"
     immer "^9.0.15"
     is-mobile "^3.0.0"
-    jsondiffpatch-rc "0.4.2"
+    jsondiffpatch "0.4.1"
     jszip "^3.10.1"
     math-expression-evaluator "^1.3.7"
     mobx "^6.9.0"
@@ -661,10 +657,10 @@
     use-deep-compare-effect "^1.6.1"
     write-excel-file "^1.4.25"
 
-"@teselagen/range-utils@0.1.19":
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/@teselagen/range-utils/-/range-utils-0.1.19.tgz#632a0e2a0462bc204b5e276e7c1743d6a4d2577d"
-  integrity sha512-Rie979+N/GTR41LJ7QDadlPxmO9loe9OUNnjztwg2UtkMjufmZbJit09RDKtjeA65HFcz3Ggp1sXW98FHwfeWw==
+"@teselagen/range-utils@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/range-utils/-/range-utils-0.3.7.tgz#2e9d388f2b89a4f603465012046de7b31afba5a9"
+  integrity sha512-gBeRt6mTM2TBxqKClzAuqoWCu3BlV86BJghomm24nmo5ujaefcMAwgrzTv/sxFzWmiM4X/Bm5S6D5h3XcKqtOQ==
   dependencies:
     lodash "^4.17.21"
 
@@ -683,28 +679,28 @@
     "@teselagen/react-list" "0.8.18"
     classnames "^2.2.5"
 
-"@teselagen/sequence-utils@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@teselagen/sequence-utils/-/sequence-utils-0.1.20.tgz#bf5a385889b2d7366cf65d28d8293cc7ded5dc26"
-  integrity sha512-V6stnrQbz+PGQbKZoJRaY9T+TieS6buV9LhnKqtEkXxRHdM70izkrBAirgfyfq4oQ4Hu2/KKvJjVwl9yfwveMg==
+"@teselagen/sequence-utils@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/sequence-utils/-/sequence-utils-0.3.7.tgz#20b9970ac02002152fb3e434ef1370f7c0fa6023"
+  integrity sha512-vkKX5oNAF0CZL9ok4HsioG+SZ6ZKf1o43+fbs/OFLqhKWP8+3hbgOJhRqt1QAuSis8mkjGt2n/5n83O8n935Pw==
   dependencies:
-    "@teselagen/range-utils" "0.1.19"
+    "@teselagen/range-utils" "0.3.7"
     bson-objectid "^2.0.4"
     escape-string-regexp "^5.0.0"
-    jsondiffpatch-rc "0.4.2"
+    jsondiffpatch "0.4.1"
     string-splice "^1.3.0"
 
-"@teselagen/ui@0.0.24":
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/@teselagen/ui/-/ui-0.0.24.tgz#75cdd3e3c5ef11ddfea2ac5d6975310320457fdf"
-  integrity sha512-Ox9tAlLKZcZ3qmLuEx2mg/mBvtWqtct7jvt8waXOJV6zO0tIeo63FWK9Es68KadrYLFrDpbR4F5texMWEUed8A==
+"@teselagen/ui@0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@teselagen/ui/-/ui-0.3.7.tgz#ce25cf1b92d5a62384dc032524a2b9eacce78ed4"
+  integrity sha512-I9E0Wruf5XPDWOJBZTnbkO4qOcJwNKu2Doy9FZhxOpHF0ICCOU40IkMJGuNgeC6GFzT/4xG0ICouvkTgtDsBSA==
   dependencies:
     "@blueprintjs/core" "3.52.0"
     "@blueprintjs/datetime" "3.23.19"
     "@blueprintjs/icons" "3.33.0"
     "@blueprintjs/select" "3.18.11"
-    "@teselagen/bounce-loader" "0.0.13"
-    "@teselagen/file-utils" "0.2.26"
+    "@teselagen/bounce-loader" "0.3.7"
+    "@teselagen/file-utils" "0.3.7"
     "@teselagen/react-table" "^6.10.11"
     axios "^0.21.1"
     bluebird "3.7.2"
@@ -1163,7 +1159,7 @@ ccount@^2.0.0:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-2.0.1.tgz#17a3bf82302e0870d6da43a01311a8bc02a3ecf5"
   integrity sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==
 
-chalk@^2.0.0:
+chalk@^2.0.0, chalk@^2.3.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -2058,11 +2054,12 @@ json5@^2.2.2:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
-jsondiffpatch-rc@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/jsondiffpatch-rc/-/jsondiffpatch-rc-0.4.2.tgz#71d5c55b51e7587193f563c0693319fa19f3223a"
-  integrity sha512-Y1qBHcinsSX6E24KvYEAzybrmhnyy/eg2uhablTW76oKrdY0nYeWoXRlMCvTXG0Nv/zlzGwAfb3mxg1JzitLug==
+jsondiffpatch@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/jsondiffpatch/-/jsondiffpatch-0.4.1.tgz#9fb085036767f03534ebd46dcd841df6070c5773"
+  integrity sha512-t0etAxTUk1w5MYdNOkZBZ8rvYYN5iL+2dHCCx/DpkFm/bW28M6y5nUS83D4XdZiHy35Fpaw6LBb+F88fHZnVCw==
   dependencies:
+    chalk "^2.3.0"
     diff-match-patch "^1.0.0"
 
 jszip@^3.10.1, jszip@^3.9.1:
